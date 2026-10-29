@@ -1,0 +1,21 @@
+# Сборка и среда
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+
+# База данных создаётся приложением при первом запуске
+*.db
+*.db-shm
+*.db-wal
+
+# Прочее
+.idea/
+.vscode/
+*.tmp
+*.log
+Thumbs.db

@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "Driver": "Анна",
+    "Car": "Street",
+    "Track": "Учебный овал",
+    "LapSeconds": 94
+  },
+  {
+    "Id": 2,
+    "Driver": "Борис",
+    "Car": "Sport",
+    "Track": "Городское кольцо",
+    "LapSeconds": 126
+  },
+  {
+    "Id": 3,
+    "Driver": "Анна",
+    "Car": "Prototype",
+    "Track": "Спринт",
+    "LapSeconds": 73
+  },
+  {
+    "Id": 4,
+    "Driver": "Вера",
+    "Car": "Street",
+    "Track": "Учебный овал",
+    "LapSeconds": 101
+  },
+  {
+    "Id": 5,
+    "Driver": "Глеб",
+    "Car": "Sport",
+    "Track": "Спринт",
+    "LapSeconds": 80
+  },
+  {
+    "Id": 6,
+    "Driver": "Дина",
+    "Car": "Prototype",
+    "Track": "Городское кольцо",
+    "LapSeconds": 118
+  }
+]

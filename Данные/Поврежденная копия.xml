@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRaceResult>
+  <RaceResult>
+    <Id>1</Id>
+    <Driver>Анна</Driver>
+    <Car>Street</Car>
+    <Track>Учебный овал</Track>
+    <LapSeconds>94</LapSeconds>
+  </RaceResult>
+  <RaceResult>
+    <Id>2</Id>
+    <Driver>Борис</Driver>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRaceResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RaceResult>
+    <Id>1</Id>
+    <Driver>Анна</Driver>
+    <Car>Street</Car>
+    <Track>Учебный овал</Track>
+    <LapSeconds>94</LapSeconds>
+  </RaceResult>
+  <RaceResult>
+    <Id>2</Id>
+    <Driver>Борис</Driver>
+    <Car>Sport</Car>
+    <Track>Городское кольцо</Track>
+    <LapSeconds>126</LapSeconds>
+  </RaceResult>
+  <RaceResult>
+    <Id>3</Id>
+    <Driver>Анна</Driver>
+    <Car>Prototype</Car>
+    <Track>Спринт</Track>
+    <LapSeconds>73</LapSeconds>
+  </RaceResult>
+  <RaceResult>
+    <Id>4</Id>
+    <Driver>Вера</Driver>
+    <Car>Street</Car>
+    <Track>Учебный овал</Track>
+    <LapSeconds>101</LapSeconds>
+  </RaceResult>
+  <RaceResult>
+    <Id>5</Id>
+    <Driver>Глеб</Driver>
+    <Car>Sport</Car>
+    <Track>Спринт</Track>
+    <LapSeconds>80</LapSeconds>
+  </RaceResult>
+  <RaceResult>
+    <Id>6</Id>
+    <Driver>Дина</Driver>
+    <Car>Prototype</Car>
+    <Track>Городское кольцо</Track>
+    <LapSeconds>118</LapSeconds>
+  </RaceResult>
+</ArrayOfRaceResult>

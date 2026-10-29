@@ -22,20 +22,28 @@
 ## Требования
 
 - Windows 10/11;
-- .NET SDK 10.0 (проект на `net10.0-windows`);
-- Visual Studio 2026 либо `dotnet` CLI.
+- .NET SDK 10.0 — основная цель (`net10.0-windows`), либо .NET SDK 9.0 для
+  Visual Studio 2022: проект автоматически собирается под `net9.0-windows`,
+  если SDK 10 не установлен;
+- Visual Studio 2022/2026 либо `dotnet` CLI.
 
 Единственная внешняя зависимость — `Microsoft.Data.Sqlite` 10.0.11
 (JSON и XML входят в платформу).
 
 ## Сборка и запуск
 
+В Visual Studio: откройте `RaceLogLab2.sln` и нажмите F5.
+
+Из командной строки:
+
 ```powershell
 dotnet build RaceLogLab2.sln
 dotnet run --project RaceLog
 ```
 
-Или откройте `RaceLogLab2.sln` в Visual Studio 2026 и нажмите F5.
+Если установлен SDK 10, проект имеет две цели и команде нужен параметр
+`-f net10.0-windows` (или `-f net9.0-windows`). При SDK 9 цель одна, параметр
+не требуется.
 
 ## Автоматические проверки
 
@@ -43,8 +51,9 @@ dotnet run --project RaceLog
 dotnet run --project Проверки
 ```
 
-Проверки не запускают форму и работают с временными базами: 37 сценариев для модели,
-поиска, SQLite, копий JSON/XML и отката транзакции.
+На SDK 10 добавьте `-f net10.0-windows`. Проверки не запускают форму и работают
+с временными базами: 37 сценариев для модели, поиска, SQLite, копий JSON/XML и
+отката транзакции.
 
 ## Учебные данные
 
